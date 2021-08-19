@@ -2,7 +2,10 @@
   "name": "@overtheairbrew/socket-io",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/application.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prebuild": "del 'dist'",
